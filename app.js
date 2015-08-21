@@ -28,7 +28,7 @@ var accessLogStream = FileStreamRotator.getStream({
 });
 
 
-
+//intialize skytap api session
 var skytap = Skytap.init({
   username: sky_username,
   token: sky_token
